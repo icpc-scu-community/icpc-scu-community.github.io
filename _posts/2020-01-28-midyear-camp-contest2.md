@@ -25,7 +25,7 @@ F. Kerollos and OS
 As always this was the **easiest** problem of the contest.  
 You are asked to concatenate two characters.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e whatever.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e whatever.cc %}
 
 ## B. Koko's Hair
 
@@ -33,7 +33,7 @@ You are asked to concatenate two characters.
 
 In this problem the only hard part is to calculate the score of each one of the players however the implementation is very straight forward as problem definition. A Good practice is to solve the problem by writing a function. A function `score` that takes parameter a single integer the choice of each player and returns his score instead of copying and pasting same block of code to calculate the score for each of them.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e koko-hair.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e koko-hair.cc %}
 
 ## C. khaled cheating
 
@@ -49,7 +49,7 @@ first we save array A which is the order of questions in form2
 then read second array answers of form1 from index 1 to n as answer[i] is the answer of i-th question
 finally we simply print answers of form2 using their order.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.cc %}
 
 ## D. Count my colors
 
@@ -59,16 +59,16 @@ The problem was very simple it needs you to calculate `m` to the power of `n`.
 The tricky part was to figure out how to use `mod` properly.
 You can watch Mostafa Saad's video [Number Theory - Modular Arithmetic](https://www.youtube.com/watch?v=9sqvjnvuLtY&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=2).
 
-{%- gist 5ffa716a772c568a9be1589dd947486e count-my-colors.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e count-my-colors.cc %}
 
 ## E. Who gets it first
 
 > Credits: Kerollos Magdy
 
-{%- gist 5ffa716a772c568a9be1589dd947486e who-gets-it-first.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e who-gets-it-first.cc %}
 
 ## F. Kerollos and OS
 
 > Credits: Kerollos Magdy
 
-{%- gist 5ffa716a772c568a9be1589dd947486e kerollos-and-os.cc %}
+{% gist 5ffa716a772c568a9be1589dd947486e kerollos-and-os.cc %}
