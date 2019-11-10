@@ -10,7 +10,7 @@ Contest link: [https://codeforces.com/contests/267343](https://codeforces.com/co
 
 {% capture list_items %}
 A. Whatever
-B. Koko's Hair
+B. Kokoz Hair
 C. khaled cheating
 D. Count my colors
 E. Who gets it first
@@ -27,7 +27,7 @@ You are asked to concatenate two characters.
 
 {% gist 5ffa716a772c568a9be1589dd947486e whatever.cc %}
 
-## B. Koko's Hair
+## B. Kokoz Hair
 
 > Credits: Khaled Rezk
 
