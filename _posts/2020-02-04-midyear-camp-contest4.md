@@ -44,9 +44,26 @@ So actually the answer is trivial, take the first integer (the number of element
 
 > Credits: Khaled Rezk
 
+you're asked to find the number of digits in $a \times b$
+one hack is just to cast them to string and print the size of that string
+however the better solution is to use Math!
+the number of digits in integer N in base B is
+$\left \lfloor{log_b (n) + 1}\right \rfloor$
+
+{% gist 737e466a8e3e7709b19169aa52f7c919 count-digits.cpp %}
+
 ## C. Cashier
 
 > Credits: Khaled Rezk
+
+the problem is to find the optimal assignment of coins to make n
+using 1,3,4. so the best way is to think of the problem as an equation
+$4x + 3y + z = n$
+and $x$ the number coin 4, $y$ number of coin 3, $z$ is the number of coin 1
+so our goal is to minimize $(x+y+z)$.
+easiest way is to try all possible assignments of $x, y, z$ and print the minimum.
+
+{% gist 737e466a8e3e7709b19169aa52f7c919 cashier.cpp %}
 
 ## D. Sum Them All
 
