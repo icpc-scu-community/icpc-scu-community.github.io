@@ -56,7 +56,9 @@ finally we simply print answers of form2 using their order.
 > Credits: Kerollos Magdy
 
 The problem was very simple it needs you to calculate `m` to the power of `n`.  
-The tricky part was to figure out how to use `mod` properly.
+The tricky part was to figure out how to use `mod` properly.  
+You must take `mod` every time you do multiply.  
+You must use `long long` datatype.  
 You can watch Mostafa Saad's video [Number Theory - Modular Arithmetic](https://www.youtube.com/watch?v=9sqvjnvuLtY&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=2).
 
 {% gist 5ffa716a772c568a9be1589dd947486e count-my-colors.cc %}
@@ -65,10 +67,14 @@ You can watch Mostafa Saad's video [Number Theory - Modular Arithmetic](https://
 
 > Credits: Kerollos Magdy
 
+Since a queue is FIFO (First in first out), students who came first should receive their paper first. In the input statement you are given the name of the studnets from the last one to the first, so all you have to do is to print them in the reversed order.
+
 {% gist 5ffa716a772c568a9be1589dd947486e who-gets-it-first.cc %}
 
 ## F. Kerollos and OS
 
 > Credits: Kerollos Magdy
+
+You are given a number of processes N. You have to determine which process has the maximum response time. All you have to do is to calculate the response time for each process and print the maximum value you get.
 
 {% gist 5ffa716a772c568a9be1589dd947486e kerollos-and-os.cc %}
