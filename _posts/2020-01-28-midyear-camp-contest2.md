@@ -81,4 +81,5 @@ You are given a number of processes N. You have to determine which process has t
 
 ---
 
-You can find all the solutions [here](https://gist.github.com/kerolloz/5ffa716a772c568a9be1589dd947486e)
+You can view all the solutions [here](https://gist.github.com/kerolloz/5ffa716a772c568a9be1589dd947486e).  
+Download all solutions [here](https://gist.github.com/kerolloz/5ffa716a772c568a9be1589dd947486e/archive/master.zip)
