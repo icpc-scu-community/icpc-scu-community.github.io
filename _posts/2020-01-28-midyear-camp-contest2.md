@@ -55,12 +55,20 @@ finally we simply print answers of form2 using their order.
 
 > Credits: Kerollos Magdy
 
-The problem was very simple it needs you to calculate `m` to the power of `n`.
+The problem was very simple it needs you to calculate `m` to the power of `n`.  
+The tricky part was to figure out how to use `mod` properly.
+You can watch Mostafa Saad's video [Number Theory - Modular Arithmetic](https://www.youtube.com/watch?v=9sqvjnvuLtY&list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ&index=2).
+
+{%- gist 5ffa716a772c568a9be1589dd947486e count-my-colors.cc %}
 
 ## E. Who gets it first
 
 > Credits: Kerollos Magdy
 
+{%- gist 5ffa716a772c568a9be1589dd947486e who-gets-it-first.cc %}
+
 ## F. Kerollos and OS
 
 > Credits: Kerollos Magdy
+
+{%- gist 5ffa716a772c568a9be1589dd947486e kerollos-and-os.cc %}
