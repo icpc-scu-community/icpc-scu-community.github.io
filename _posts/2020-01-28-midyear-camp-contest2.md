@@ -8,14 +8,14 @@ description: Editorial of the second contest, Midyear Online Camp.
 
 Contest link: [https://codeforces.com/contests/267343](https://codeforces.com/contests/267343)
 
-{%- capture list_items -%}
+{% capture list_items %}
 A. Whatever
 B. Koko's Hair
 C. khaled cheating
 D. Count my colors
 E. Who gets it first
 F. Kerollos and OS
-{%- endcapture -%}
+{% endcapture %}
 {% include elements/list.html title="Solutions" type="toc" %}
 
 ## A. Whatever
@@ -51,10 +51,11 @@ finally we simply print answers of form2 using their order.
 
 {%- gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.cc %}
 
-
 ## D. Count my colors
 
 > Credits: Kerollos Magdy
+
+The problem was very simple it needs you to calculate `m` to the power of `n`.
 
 ## E. Who gets it first
 
