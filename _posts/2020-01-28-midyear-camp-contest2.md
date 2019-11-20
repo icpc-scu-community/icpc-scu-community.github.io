@@ -16,7 +16,6 @@ D. Count my colors
 E. Who gets it first
 F. Kerollos and OS
 {%- endcapture -%}
-
 {% include elements/list.html title="Solutions" type="toc" %}
 
 ## A. Whatever
