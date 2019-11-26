@@ -27,19 +27,6 @@ author:
 ### Posts ###
 permalink: /blog/:title
 
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
 
 ### Exclude from processing ###
 exclude:
