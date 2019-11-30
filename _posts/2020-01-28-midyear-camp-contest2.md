@@ -26,7 +26,7 @@ F. Kerollos and OS
 As always this was the **easiest** problem of the contest.  
 You are asked to concatenate two characters.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e whatever.c %}
+{%- gist 5ffa716a772c568a9be1589dd947486e whatever.cc %}
 
 ## B. Koko's Hair
 
@@ -34,7 +34,7 @@ You are asked to concatenate two characters.
 
 In this problem the only hard part is to calculate the score of each one of the players however the implementation is very straight forward as problem definition. A Good practice is to solve the problem by writing a function. A function `score` that takes parameter a single integer the choice of each player and returns his score instead of copying and pasting same block of code to calculate the score for each of them.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e koko-hair.c %}
+{%- gist 5ffa716a772c568a9be1589dd947486e koko-hair.cc %}
 
 ## C. khaled cheating
 
@@ -50,7 +50,7 @@ first we save array A which is the order of questions in form2
 then read second array answers of form1 from index 1 to n as answer[i] is the answer of i-th question
 finally we simply print answers of form2 using their order.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.c %}
+{%- gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.cc %}
 
 
 ## D. Count my colors
