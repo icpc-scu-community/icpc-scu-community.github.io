@@ -5,16 +5,8 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# About Us
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hello this is **{{ site.author.name }}** :wave:
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
-</div>
+Problem-solving is an essential skill for every programmer. So, we at {{ site.author.name }} believe that competitive programming helps students to improve their problem-solving skills. Our dream is to participate in the International Collegiate Programming Contest (ICPC). Dreams never come true by desire you have to pursue them so we hold real contests to familiarize the students with the passion of the contest. We give weekly sessions to keep track of the progress made by students, explain new topics, solve tricky problems, help students get their hands dirty implementing algorithms and data structures, and get prepared to participate in Egyptian Collegiate Programming Contest (ECPC).
