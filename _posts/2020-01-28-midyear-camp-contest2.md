@@ -26,47 +26,32 @@ F. Kerollos and OS
 As always this was the **easiest** problem of the contest.  
 You are asked to concatenate two characters.
 
-{%- gist 5ffa716a772c568a9be1589dd947486e %}
+{%- gist 5ffa716a772c568a9be1589dd947486e whatever.c %}
 
 ## B. Koko's Hair
 
 > Credits: Khaled Rezk
 
+In this problem the only hard part is to calculate the score of each one of the players however the implementation is very straight forward as problem definition. A Good practice is to solve the problem by writing a function. A function `score` that takes parameter a single integer the choice of each player and returns his score instead of copying and pasting same block of code to calculate the score for each of them.
 
-```cpp
-#include <iostream>
-
-int score (int n){
-    int number_of_operations = 0;
-
-    while(n != 1){
-        if(n % 2 == 0) {
-            n /= 2;
-        }else {
-            n = 3 * n + 1;
-        }
-        number_of_operations++;
-    }
-
-    return number_of_operations;
-
-}
-
-int main () {
-    int r, k;
-    scanf("%d %d", &r, &k);
-
-    if(score(r) >= score(k))
-        printf("Rokaia wins!\n");
-    else 
-        printf("Koko wins!\n");
-
-}
-```
+{%- gist 5ffa716a772c568a9be1589dd947486e koko-hair.c %}
 
 ## C. khaled cheating
 
 > Credits: Khaled Rezk
+
+In this problem the tricky part is to understand the the mapping from form1 answers to form2 answers and after that the problem is a piece of cake!
+Let's take the first Example “If form1 has 3 questions 1,2,3 and their answers are A, B, D. and form2 has the questions of form1 but in order 2,3,1 then answers of form2 should be B, D, A!”
+that means answer of question 1 is A, answer of question 2 is B, answer of question 3 is D and so on
+answer of question `i` is the `ci` character.
+In from 2 order first question is question2 which answer was B, second question is 3 which answer is D, and the third question is 1 which answer is A so form 2 answers should be B,D,A respectively.
+Understandings the mapping makes the problem trivially implemented as follows,
+first we save array A which is the order of questions in form2
+then read second array answers of form1 from index 1 to n as answer[i] is the answer of i-th question
+finally we simply print answers of form2 using their order.
+
+{%- gist 5ffa716a772c568a9be1589dd947486e khaled-cheating.c %}
+
 
 ## D. Count my colors
 
