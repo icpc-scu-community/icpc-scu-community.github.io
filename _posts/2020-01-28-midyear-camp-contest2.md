@@ -78,3 +78,7 @@ Since a queue is FIFO (First in first out), students who came first should recei
 You are given a number of processes N. You have to determine which process has the maximum response time. All you have to do is to calculate the response time for each process and print the maximum value you get.
 
 {% gist 5ffa716a772c568a9be1589dd947486e kerollos-and-os.cc %}
+
+---
+
+You can find all the solutions [here](https://gist.github.com/kerolloz/5ffa716a772c568a9be1589dd947486e)
