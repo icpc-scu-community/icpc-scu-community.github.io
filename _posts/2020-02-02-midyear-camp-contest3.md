@@ -44,6 +44,18 @@ Otherwise, the result is the `ceil` of `k / (n-m)`. If you didn't check for `-1`
 
 {% gist 60f8207d63e17d5dd51614ecbabf4d33 omar-and-bike.cpp %}
 
+## C. Ismail's Exams
+
+> Credits: Ismail Akram
+
+This problem is direct implementation. First, you need to note that Ismail needs at least `n/2` to pass. So read the string, count how many `1` in it, and print the difference between `n/2` and the count of `1` in the string, Note this may be negative, in this case print 0 (Ismail already passed without Amr's help).
+
+{% gist 60f8207d63e17d5dd51614ecbabf4d33 ismail-exams.cpp %}
+
+Another C++ solution
+
+{% gist 60f8207d63e17d5dd51614ecbabf4d33 ismail-exams-count.cpp %}
+
 ---
 
 You can [view](https://gist.github.com/amrsalama/60f8207d63e17d5dd51614ecbabf4d33) or [download](https://gist.github.com/amrsalama/60f8207d63e17d5dd51614ecbabf4d33/archive/master.zip) all the solutions.
