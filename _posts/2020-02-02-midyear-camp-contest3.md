@@ -22,13 +22,13 @@ F. Khaled's Birthday
 
 > Credits: Amr Salama
 
-This was the **easiest** problem of the contest. You are asked to round the division result to be even.
+This was the **easiest** problem in the contest. You are asked to round the division result to be even.
 
 **Note**:
 
-- `ceil` will always rounds the results to the upper bound `ceil(2.3) = 3`.
-- `floor` will always rounds the results to the lower bound `floor(3.9) = 3`.
-- `round` will rounds the results towards the nearest integer `round(2.6) = 3`, `round(3.2) = 3`.
+- `ceil` will always rounds the result to the upper bound `ceil(2.3) = 3`.
+- `floor` will always rounds the result to the lower bound `floor(3.9) = 3`.
+- `round` will rounds the result towards the nearest integer `round(2.6) = 3`, `round(3.2) = 3`.
 
 We don't need to use any of them, We can simply calculate the integer division and check whether it is odd or not, if it is odd then add one to the result, otherwise print the result.
 
